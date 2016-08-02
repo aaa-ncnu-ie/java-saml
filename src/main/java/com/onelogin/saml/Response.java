@@ -273,7 +273,10 @@ public class Response {
 
 				ArrayList<String> attrValues = new ArrayList<String>();
 				for (int j = 0; j < children.getLength(); j++) {
-					attrValues.add(children.item(j).getTextContent());
+					Node item = children.item(j);
+					if(item.getNodeType() != Node.TEXT_NODE) {
+						attrValues.add(item.getTextContent());
+					}
 				}
 				attributes.put(attName, attrValues);
 			}
