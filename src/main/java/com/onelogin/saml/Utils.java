@@ -164,7 +164,7 @@ public class Utils {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		factory.setNamespaceAware(true);
 		factory.setIgnoringElementContentWhitespace(true);
-
+		factory.setValidating(true);
 		// Add various options explicitly to prevent XXE attacks. add try/catch around every
 		// setAttribute just in case a specific parser does not support it.
 		try {
