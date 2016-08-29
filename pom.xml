@@ -10,7 +10,7 @@
 
     <groupId>com.onelogin</groupId>
     <artifactId>java-saml</artifactId>
-    <version>1.1.6</version>
+    <version>1.1.7</version>
 
     <properties>
         <slf4jVersion>1.7.12</slf4jVersion>
