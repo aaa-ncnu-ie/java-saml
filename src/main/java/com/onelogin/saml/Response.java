@@ -237,7 +237,6 @@ public class Response {
 			error.append(e.getMessage());
 			return false;
 		}catch(Exception e){
-			e.printStackTrace();
 			error.append(e.getMessage());
 			return false;
 		}
