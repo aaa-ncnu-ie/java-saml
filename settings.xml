@@ -9,7 +9,7 @@
         <repository>
           <id>default</id>
           <name>Public Maven Repository Group</name>
-          <url>http://repository.jboss.org/nexus/content/groups/public/</url>
+          <url>https://repo1.maven.org/maven2/</url>
         </repository>
       </repositories>
     </profile>
